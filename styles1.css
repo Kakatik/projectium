@@ -55,8 +55,3 @@ button {
   height: 10px;
   background-color: yellow;
 }
-#note {
-  position: fixed;
-  top: 5px;
-  right: 10px
-}
