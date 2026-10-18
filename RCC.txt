@@ -1,0 +1,7 @@
+import random
+import string
+
+array = list(string.digits[1:]) + list(string.ascii_lowercase) + list(string.punctuation)
+random.shuffle(array)
+output = "".join(array)
+print(output)
