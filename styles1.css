@@ -24,6 +24,13 @@ body {
       cursor: help;
     }
 }
+#info3 {
+  border: 0.5px solid yellow;
+  width: 350px;
+    label:hover {
+      cursor: help;
+    }
+}
 #project {
   margin-bottom: 0px;
 }
@@ -35,4 +42,21 @@ button {
 }
 #bwe:hover {
   cursor: pointer;
+}
+#blue {
+  border: 0.5px solid yellow;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+}
+#yellow {
+  border: 0.5px solid yellow;
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+}
+#note {
+  position: fixed;
+  top: 5px;
+  right: 10px
 }
