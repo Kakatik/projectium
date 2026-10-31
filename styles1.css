@@ -31,6 +31,13 @@ body {
       cursor: help;
     }
 }
+#info4 {
+  border: 0.5px solid blue;
+  width: 325px;
+    label:hover {
+      cursor: help;
+    }
+}
 #project {
   margin-bottom: 0px;
 }
@@ -54,4 +61,14 @@ button {
   width: 10px;
   height: 10px;
   background-color: yellow;
+}
+.others {
+  color: blue;
+    button {
+      color: blue;
+      border: 0.5px solid blue;
+    }
+    button:hover {
+      cursor: pointer;
+    }
 }
